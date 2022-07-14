@@ -1,0 +1,104 @@
+.gift_items {
+    width:270px ;
+    height:436px ;
+    background-color: #fafafa;
+    margin-right: 30px;
+    transition: all 0.5s;
+}
+
+.Gift_item {
+    margin-left: 180px;
+    display: flex;
+}
+
+.gifts_welcome {
+    text-align: center;
+    margin-bottom: 64px;
+}
+
+.gift_title {
+    font-family: 'Gilroy' , sans-serif;
+    font-size: 32px;
+    line-height: 38px;
+    font-weight: lighter;
+}
+
+.gift_subtitle {
+    font-family: 'Gilroy' , sans-serif;
+    font-size: 18px;
+    line-height: 38px;
+    font-weight: lighter;
+}
+
+.Gift {
+    margin-top: 100px;
+    margin-bottom: 140px;
+}
+
+.items_title {
+    margin-left: 24px;
+    font-family: 'Gilroy', sans-serif;
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: 74px;
+}
+
+.items_1 {
+    background-color: #fff;
+    box-shadow:  10px 10px 15px rgba(0, 0, 0, 0.05)  ;
+}
+
+.gift_items:hover {
+    background-color: #fff;
+    box-shadow:  10px 10px 15px rgba(0, 0, 0, 0.05)  ;
+}
+
+.items_links {
+    margin-left: 24px;
+    text-decoration: none;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+@media (max-width:767px) {
+    .items_links {
+        font-size: 24px;
+    }
+    .items_title {
+        margin-bottom: 60px;
+        font-size: 25px;
+    }
+}
+
+@media (max-width:480px) {
+
+    .gift_title {
+        font-size: 40px;
+    }
+
+    .gift_subtitle {
+        font-size: 30px;
+    }
+
+    .Gift_item {
+        margin-left: 80px;
+    }
+    .gift_img {
+        width: 330px;
+    }
+
+    .gift_items {
+        width: 330px;
+        height: 460px;
+    }
+    .items_links {
+        font-size: 34px;
+    }
+    .items_title {
+        margin-bottom: 60px;
+        font-size: 35px;
+    }
+}

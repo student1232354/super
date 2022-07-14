@@ -1,0 +1,152 @@
+.gifts_welcome {
+    margin-top: 88px;
+}
+
+
+.comment_black {
+    background-color: #231F20;
+    width: 1170px;
+    height: 370px;
+    display: flex;
+    color: #fff;
+    margin-left: 180px;
+    margin-bottom: 45px;
+}
+
+.comment_item {
+    margin-top: 63px;
+    margin-left: 80px;
+    font-family: 'Gilroy', sans-serif;
+}
+
+.comm_name {
+    font-size: 14px;
+}
+
+
+.comm_title {
+    font-size: 48px;
+    line-height: 58px;
+    font-weight: 100;
+    width: 492px;
+}
+
+
+.comm_subtitle {
+    display: block;
+    margin-top: 60px;
+   
+}
+
+
+.comment_1 {
+    width: 570px;
+    height: 290px;
+    box-shadow:  10px 10px 15px rgba(0, 0, 0, 0.05);
+    margin-right: 30px;
+    
+}
+
+.title_1 {
+    font-family: 'Gilroy', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    width: 474px;
+    height: 70px;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.title_2 {
+    font-family: 'Gilroy',sans-serif;
+    font-size: 18px;
+    margin-left: 50px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.title_3 {
+    margin-left: 50px;
+    font-family: 'Gilroy',sans-serif;
+}
+
+.comments_our {
+    margin-left: 135px;
+    display: flex;
+}
+.comment_2 {
+    transition: all 0.5s ;
+    width: 570px;
+    height: 290px;
+}
+.comment_2:hover {
+    box-shadow:  10px 10px 15px rgba(0, 0, 0, 0.05);
+}
+
+.commments {
+    margin-bottom: 80px;
+}
+
+@media (max-width:992px) {
+    .comm_name {
+        font-size: 24px;
+    }
+
+    .comm_subtitle {
+        font-size: 24px;
+        margin-top: 40px;
+    }
+}
+
+@media (max-width:767px) {
+    .comm_name {
+        font-size: 28px;
+    }
+
+    .comm_subtitle {
+        font-size: 28px;
+        margin-top: 40px;
+    }
+
+    .title_2 {
+        font-size: 24px;
+    }
+
+    .title_3 {
+        font-size: 24px;
+    }
+}
+
+@media (max-width:480px) {
+    .comment_1 {
+        height: 420px;
+    }
+
+    .comment_2 {
+        height: 420px;
+    }
+
+    .comm_name {
+        margin-top: 0px;
+        font-size: 40px;
+    }
+
+    .comm_subtitle {
+        font-size: 36px;
+        margin-top: 20px;
+    }
+
+    .title_1 {
+        font-size: 36px;
+    }
+
+
+    .title_2 {
+        margin-top: 50px;
+        font-size: 36px;
+    }
+
+    .title_3 {
+        font-size: 30px;
+    }
+}
